@@ -12,6 +12,11 @@ yes | yay -S unclutter
 yes | yay -S redshift
 # Install pywal
 yes | yay -S python-pywal
+# Install fonts
+yes | yay -S ttf-symbola
+yes | yay -S ttf-font-awesome
+yes | yay -S ttf-roboto
+yes | yay -S ttf-nerd-fonts-symbols
 
 # Download dotfiles
 cd ~ && git clone https://github.com/mrsorensen/dotfiles.git
@@ -24,3 +29,7 @@ cp ~/dotfiles/picom/picom.conf ~/.config/picom.conf
 # Overwrite rofi config
 # Overwrite .Xresources
 cp ~/dotfiles/Xresources/.Xresources ~/.Xresources
+
+# Download wallpaper
+wget -P ~/Pictures/GTSA-wallpaper.jpg "http://files.vividscreen.info/soft/c7592bed743b7b7668f17e1bd7fa90f0/Gta-San-Andreas-1920x1080.jpg"
+wal -a 80 -i ~/Pictures/GTASA-wallpaper.jpg
