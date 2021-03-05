@@ -31,5 +31,5 @@ cp ~/dotfiles/picom/picom.conf ~/.config/picom.conf
 cp ~/dotfiles/Xresources/.Xresources ~/.Xresources
 
 # Download wallpaper
-wget -P ~/Pictures/GTSA-wallpaper.jpg "http://files.vividscreen.info/soft/c7592bed743b7b7668f17e1bd7fa90f0/Gta-San-Andreas-1920x1080.jpg"
-wal -a 80 -i ~/Pictures/GTASA-wallpaper.jpg
+wget -P ~/Pictures "http://files.vividscreen.info/soft/c7592bed743b7b7668f17e1bd7fa90f0/Gta-San-Andreas-1920x1080.jpg"
+wal -a 80 -i ~/Pictures/Gta-San-Andreas-1920x1080.jpg
