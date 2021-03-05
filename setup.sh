@@ -13,7 +13,7 @@ yes | yay -S redshift
 # Install pywal
 yes | yay -S python-pywal
 # Install fonts
-yes | yay -S ttf-symbola
+#yes | yay -S ttf-symbola
 yes | yay -S ttf-font-awesome
 yes | yay -S ttf-roboto
 yes | yay -S ttf-nerd-fonts-symbols
