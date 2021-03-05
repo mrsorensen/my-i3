@@ -27,6 +27,8 @@ mkdir ~/.config/polybar && cp ~/dotfiles/polybar/config ~/.config/polybar/config
 # Overwrite picom config
 cp ~/dotfiles/picom/picom.conf ~/.config/picom.conf
 # Overwrite rofi config
+mkdir .config/rofi
+echo '@import "~/.cache/wal/colors-rofi-dark"' >> .config/rofi/config.rasi
 # Overwrite .Xresources
 cp ~/dotfiles/Xresources/.Xresources ~/.Xresources
 
