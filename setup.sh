@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # Install polybar
-yes | yay -S polybar
+yes | sudo pacman -S polybar
 # Install rofi
-yes | yay -S rofi
+yes | sudo pacman -S rofi
 # Install picom with rounded corners and blur
 yes | yay -S picom-ibhagwan-git
 # Install unclutter
-yes | yay -S unclutter
+yes | sudo pacman -S unclutter
 # Install redshift
-yes | yay -S redshift
+yes | sudo pacman -S redshift
 # Install pywal
-yes | yay -S python-pywal
+yes | sudo pacman -S python-pywal
 # Install fonts
 #yes | yay -S ttf-symbola
 yes | yay -S ttf-font-awesome
@@ -37,7 +37,7 @@ wget --output-document=~/Pictures/wallpaper.jpg http://files.vividscreen.info/so
 wal -a 80 -i ~/Pictures/wallpaper.jpg
 
 # Remove dotfiles folder
-rm -rf ~/dotfiles
+#rm -rf ~/dotfiles
 
 # Reboot
 reboot
